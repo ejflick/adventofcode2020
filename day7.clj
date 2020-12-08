@@ -4,8 +4,8 @@
 (defstruct node :bag :rules)
 (defstruct edge :to :from )
 
-(def test-input (slurp "day7.test.in"))
-;; (def input (slurp "day7.in"))
+(def test-input (slurp "input/day7.test.in"))
+;; (def input (slurp "input/day7.in"))
 (def test-line "dark orange bags contain 3 bright white bags, 4 muted yellow bags.")
 
 (def bag-for-rule-matcher #"(\w+ \w+){1}")

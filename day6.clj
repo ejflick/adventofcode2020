@@ -11,8 +11,8 @@
 (defn group->set [group]
   (map person->set group))
 
-(def input (slurp "day6.in"))
-(def test-input (slurp "day6.test.in"))
+(def input (slurp "input/day6.in"))
+(def test-input (slurp "input/day6.test.in"))
 
 (def answer (->> input
                  (group-inputs)

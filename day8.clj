@@ -1,10 +1,10 @@
 (ns user
   (:require [clojure.string :as s]))
 
-(def input (-> (slurp "day8.in")
+(def input (-> (slurp "input/day8.in")
                (s/split-lines)))
 
-(def test-input (-> (slurp "day8.test.in")
+(def test-input (-> (slurp "input/day8.test.in")
                     (s/split-lines)))
 
 ;; (defn create-op [input]
